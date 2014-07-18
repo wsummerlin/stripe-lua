@@ -2,7 +2,7 @@
 
 -- This is a basic Lua module for interacting with Stripe's API. The module has Corona SDK dependencies. 
 
--- Copywright (c) Will Summerlin 2014
+-- Copyright (c) Will Summerlin 2014
 
 --See Licence in README
 ------------------------------------------------------------------------------------------------------------------
