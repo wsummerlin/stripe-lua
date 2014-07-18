@@ -14,7 +14,7 @@
 -- All of the following values are set for testing ONLY. ---
 description = "test"
 email = "test@email.com"
-api_key = "sk_test_4PRPv16aE7e9IgQ0qNIjxRL3"
+api_key = "****************" --API Key Here
 cardNumber = "4242424242424242"
 fullName = "Test Name"
 expMonth = "07"
