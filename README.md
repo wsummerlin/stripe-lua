@@ -1,6 +1,9 @@
 Stripe-lua
 ==========
 
+V1.0
+
+
 A simple lua module to interact with Stripe's payment API.
 
 It’s a work in progress, but what is commited should work pretty well.
@@ -40,6 +43,12 @@ Tips:
   Store a customers id, charge ids, and everything else...you will thank me for this one
 
   All functions are global - so they can be called from anywhere in your project. 
+
+
+Contact me (Will Summerlin) for help or with any suggestions: techpulsesoftware@gmail.com
+
+Also, check out my blog: http://cooldevelopments.blogspot.com/
+
 
 Licence: 
 
