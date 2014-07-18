@@ -326,7 +326,7 @@ StripeGetCustomer = function ()
             local error = resp1.error
             if error ~= nil then
                 for i = 1, #resp1.error do
-                    print(resp1.error[i].type)
+                    print(resp1.error[i].type) 
                     print(resp1.error[i].message)
                 end 
             end
