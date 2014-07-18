@@ -212,7 +212,7 @@ StripeGetCharges = function ()
                     table.insert(chargedTimeTable, resp1.data[j].created)
                     print(resp1.data[j].created)
                 end
-                    
+                
                 
             end  
         end
@@ -274,7 +274,7 @@ StripeUpdateCustomer = function ()
             if error == nil then
                 emailReturn = resp1.email
                 print(emailReturn)
-
+                
             end  
         end
     end
@@ -313,7 +313,7 @@ end
 StripeGetCustomer = function () 
     local json = require "json"
     print ("test")
-
+    
     
     local function networkListener( event )
         if ( event.isError ) then
@@ -339,7 +339,7 @@ StripeGetCustomer = function ()
                 print(defaultCard)
                 
                 --Iterate through returned JSON here
-
+                
             end  
         end
     end
@@ -366,11 +366,11 @@ end
 
 
 ------------------------------------------------------------------------------------------------------------------
- 
- 
- --Create a token for a one time charge
- 
- 
+
+
+--Create a token for a one time charge
+
+
 StripeNewToken = function () 
     local json = require "json"
     print ("test")
@@ -509,10 +509,10 @@ end
 
 
 ------------------------------------------------------------------------------------------------------------------
- 
- 
+
+
 --Provide a refund
- 
+
 ----Below is an arbitrary and defunct charge id (It will not work). You need to set "chargeId" to the id of the charge to be refunded 
 
 chargeId = "ch_14HRca4ZwoZsuAk49Y0CMA65"
@@ -520,7 +520,7 @@ chargeId = "ch_14HRca4ZwoZsuAk49Y0CMA65"
 StripeRefundCharge = function () 
     local json = require "json"
     print ("test")
-   
+    
     
     local function networkListener( event )
         if ( event.isError ) then
