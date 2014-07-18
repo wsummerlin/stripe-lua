@@ -16,30 +16,30 @@ To use stripe-lua simply:
 
 Functions and their “function” -
 
-StripeNewRegister() : Register a new customer 
+  StripeNewRegister() : Register a new customer 
 
-StripeNewCharge() : Charge a customer 
+  StripeNewCharge() : Charge a customer 
 
-StripeGetCharges() : Get a list of a customers charge history (With you only)
+  StripeGetCharges() : Get a list of a customers charge history (With you only)
 
-StripeUpdateCustomer() : Update a customer's information (email, etc)
+  StripeUpdateCustomer() : Update a customer's information (email, etc)
 
-StripeGetCustomer() : Get a customer’s information 
+  StripeGetCustomer() : Get a customer’s information 
 
-StripeNewToken() : Create a single use card token 
+  StripeNewToken() : Create a single use card token 
 
-StripeTokenCharge() : Charge someone using a card token
-
-StripeRefundCharge() : Provide a refund 
+  StripeTokenCharge() : Charge someone using a card token
+  
+  StripeRefundCharge() : Provide a refund 
 
 
 Tips: 
 
-All pertinent variables (i.e. cardNumber) are global - so you can set them anywhere in your project. 
+  All pertinent variables (i.e. cardNumber) are global - so you can set them anywhere in your project. 
 
-Store a customers id, charge ids, and everything else...you will thank me for this one
+  Store a customers id, charge ids, and everything else...you will thank me for this one
 
-All functions are global - so they can be called from anywhere in your project. 
+  All functions are global - so they can be called from anywhere in your project. 
 
 Licence: 
 
